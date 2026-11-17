@@ -1,0 +1,2760 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Administrador",
+      "login": "adm",
+      "senha": "123",
+      "adm": true,
+      "favoritos": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "assistidos": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "avaliacoes": [],
+      "lista": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "tema": "magic"
+    },
+    {
+      "nome": "Artur",
+      "login": "euarturnerd",
+      "senha": "12345",
+      "adm": false,
+      "favoritos": [
+        "S004",
+        "Q001",
+        "F001",
+        "J001",
+        "J002",
+        "S012"
+      ],
+      "assistidos": [
+        "S006",
+        "S002",
+        "S004",
+        "S005",
+        "Q001",
+        "F001",
+        "F002",
+        "F003",
+        "S008",
+        "S003",
+        "S001",
+        "S010",
+        "S011",
+        "F004",
+        "S009",
+        "S012"
+      ],
+      "avaliacoes": [
+        {
+          "idObra": "S002",
+          "nota": 9
+        },
+        {
+          "idObra": "Q001",
+          "nota": 8.5
+        },
+        {
+          "idObra": "S004",
+          "nota": 9
+        },
+        {
+          "idObra": "S005",
+          "nota": 8.5
+        },
+        {
+          "idObra": "S006",
+          "nota": 8
+        },
+        {
+          "idObra": "F001",
+          "nota": 9
+        },
+        {
+          "idObra": "F002",
+          "nota": 8.5
+        },
+        {
+          "idObra": "F003",
+          "nota": 8
+        },
+        {
+          "idObra": "S001",
+          "nota": 8
+        },
+        {
+          "idObra": "S008",
+          "nota": 8
+        },
+        {
+          "idObra": "S003",
+          "nota": 8
+        },
+        {
+          "idObra": "S010",
+          "nota": 7.5
+        },
+        {
+          "idObra": "S011",
+          "nota": 9
+        },
+        {
+          "idObra": "J001",
+          "nota": 8
+        },
+        {
+          "idObra": "S012",
+          "nota": 10
+        },
+        {
+          "idObra": "F004",
+          "nota": 9
+        },
+        {
+          "idObra": "J002",
+          "nota": 8
+        },
+        {
+          "idObra": "S009",
+          "nota": 9.5
+        }
+      ],
+      "lista": [
+        "S007",
+        "Q002"
+      ],
+      "tema": "magic",
+      "id": "u5iEyW-z344"
+    },
+    {
+      "nome": "usuário",
+      "login": "contadeusuario",
+      "senha": "123",
+      "adm": false,
+      "favoritos": [
+        "S009",
+        "Q002",
+        "S004",
+        "J001"
+      ],
+      "assistidos": [
+        "S008",
+        "S009",
+        "Q002",
+        "S004",
+        "F001"
+      ],
+      "avaliacoes": [
+        {
+          "idObra": "S008",
+          "nota": 7
+        },
+        {
+          "idObra": "S009",
+          "nota": 9
+        },
+        {
+          "idObra": "F002",
+          "nota": 10
+        },
+        {
+          "idObra": "Q002",
+          "nota": 8.5
+        },
+        {
+          "idObra": "S004",
+          "nota": 10
+        },
+        {
+          "idObra": "F001",
+          "nota": 6
+        },
+        {
+          "idObra": "J001",
+          "nota": 10
+        }
+      ],
+      "lista": [
+        "J001"
+      ],
+      "tema": "toxic",
+      "id": "OKoO_1UuYTQ"
+    },
+    {
+      "nome": "Lola",
+      "login": "lolaninja",
+      "senha": "123lolaFANS",
+      "adm": false,
+      "favoritos": [],
+      "assistidos": [],
+      "avaliacoes": [
+        {
+          "idObra": "J001",
+          "nota": 1.5
+        },
+        {
+          "idObra": "S010",
+          "nota": 10
+        }
+      ],
+      "lista": [
+        "J001"
+      ],
+      "id": "bp8Pnsdpdqg"
+    },
+    {
+      "nome": "Enzo",
+      "login": "enzo_o_01",
+      "senha": "1234",
+      "adm": false,
+      "favoritos": [
+        "S008"
+      ],
+      "assistidos": [
+        "S008"
+      ],
+      "avaliacoes": [
+        {
+          "idObra": "S008",
+          "nota": 8
+        }
+      ],
+      "lista": [],
+      "id": "I-msHFqpCGc",
+      "tema": "toxic"
+    }
+  ],
+  "franquias": [
+    {
+      "id": "FR001",
+      "nome": "Marvel",
+      "imagem": "img/frq/marvel-frq.jpg",
+      "descricao": "A Marvel Comics é uma editora norte-americana de histórias em quadrinhos e de mídias relacionadas, situada em Nova York. Hoje, a Marvel Comics é considerada a maior editora de histórias em quadrinhos do mundo. Em 2009, a The Walt Disney Company adquiriu a Marvel Entertainment, a empresa mãe da Marvel.",
+      "titulos": [
+        "F004",
+        "F001",
+        "F003"
+      ]
+    },
+    {
+      "id": "FR002",
+      "nome": "Ben 10",
+      "imagem": "img/frq/ben10-frq.jpg",
+      "descricao": "Ben 10 é uma franquia de mídia de desenhos animados norte-americana e é produzida pelo Cartoon Network Studios. A franquia aborda um garoto que usa um dispositivo extraterrestre em formato de relógio de pulso, que a cada série é renovado ou trocado. É o chamado Omnitrix, que permite a ele se transformar em diversas criaturas exóticas.",
+      "titulos": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ]
+    },
+    {
+      "id": "FR003",
+      "nome": "Miraculous Corp.",
+      "imagem": "img/frq/miraculous-frq.jpg",
+      "descricao": "Miraculous Corp. é uma empresa francesa de produção pertencente como a investimento conjunto com a produtora europeia Mediawan e a empresa de animação francesa ZAG Entertainment, fundada em 13 de maio de 2024, responsável por controlar a gestão de propriedade intelectual e expandir a franquia Miraculous.",
+      "titulos": [
+        "S002"
+      ]
+    },
+    {
+      "id": "FR004",
+      "nome": "DC Comics",
+      "imagem": "img/frq/dc-frq.jpg",
+      "descricao": "A DC Comics é uma editora norte-americana subsidiária da companhia Warner Bros. Discovery situada em Burbank, Califórnia, especializada em histórias em quadrinhos e mídias relacionadas. A DC Comics é considerada uma das maiores companhias ligadas a este ramo no mundo todo.",
+      "titulos": [
+        "F002"
+      ]
+    }
+  ],
+  "series": [
+    {
+      "id": "S001",
+      "titulo": "Ben 10",
+      "estreia": "27-12-2005",
+      "ano": 2005,
+      "imagem": "img/banners/banner-ben10.jpg",
+      "sinopse": "Aos 10 anos de idade, Benjamin Kirby Tennyson descobre um dispositivo alienígena na floresta chamado de Omnitrix, que lhe permite se transformar em 10 diferentes espécies alienígenas. Ao longo de suas férias de verão, indo para todos os locais do país em um trailer com seu avô Max, um ex-encanador (membro de um equipe caçadora de alienígenas) e com a sua prima Gwen, Ben luta contra o crime e alienígenas do mal com seus novos e recém adquiridos poderes, obtendo a capacidade de se transformar nesses 10 alienígenas, porém ao longo do caminho ele vai desbloqueando espécies mais raras de extraterrestres.",
+      "genero": [
+        "Ficção científica",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 4,
+      "episodios": 49,
+      "duracaoep": 22,
+      "streaming": "HBO max",
+      "carrossel1": "img/carrossel/ben10-banner-benegwen.jpg",
+      "carrossel2": "img/carrossel/ben10-banner-viagemnotempo.jpg",
+      "carrossel3": "img/carrossel/ben10-banner-vilgax.jpg",
+      "avaliacao": 7.6,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S002",
+      "titulo": "Miraculous",
+      "estreia": "19-10-2015",
+      "ano": 2015,
+      "imagem": "img/banners/banner-miraculous.jpg",
+      "sinopse": "Miraculous: As Aventuras de Ladybug acompanha Marinette Dupain-Cheng, uma corajosa garota que esconde uma identidade secreta: ela é a Ladybug, uma heroína inconfundível. Decidida a combater todos os perigos da cidade de Paris, a jovem embarca em uma jornada repleta de desafios e aventuras. No entanto, ela não está sozinha, pois conta com a ajuda de Adrien Agreste (ou Cat Noir), seu amigo e paixão secreta. Para enfrentar os vilões, eles utilizam jóias mágicas conhecidas como Miraculous. O principal inimigo de Ladybug e Cat Noir é o Hawk Moth, um vilão perigoso que pretende roubar as jóias. Para isso, ele utiliza akumas, borboletas enfeitiçadas com energias negativas. Quando soltas pelas ruas de Paris, elas transformam pessoas comuns em vilões malignos quando sentem emoções negativas. Mas Marinette e Adrian não irão recuar. Os dois tentaram de tudo para enfrentar Hawk e acabar com seus planos de destruir a cidade francesa.",
+      "genero": [
+        "Fantasia",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 6,
+      "episodios": 157,
+      "duracaoep": 24,
+      "streaming": "GloboPlay",
+      "carrossel1": "img/carrossel/miraculous-banner-zerou.jpg",
+      "carrossel2": "img/carrossel/miraculous-banner-monarch.jpg",
+      "carrossel3": "img/carrossel/miraculous-banner-bunnynoir.jpg",
+      "avaliacao": 7.6,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S003",
+      "titulo": "Invencível",
+      "estreia": "25-03-2021",
+      "ano": 2021,
+      "imagem": "img/banners/banner-invencivel.jpg",
+      "sinopse": "A série animada Invencível, lançada oficialmente em 2021, é uma produção original do Amazon Prime Video. A trama segue um adolescente que é filho do super-herói mais poderoso do planeta. Ao começar a desenvolver seus próprios poderes, no entanto, ele descobre que a história da família pode ser mais sombria do que esperava. Baseada no personagem Mark Grayson, da revista em quadrinhos homônima de Robert Kirkman, a produção norte-americana leva em seu elenco de vozes original Steven Yeun e JK Simmons.",
+      "genero": [
+        "Ação",
+        "Drama",
+        "Ficção científica"
+      ],
+      "temporadas": 4,
+      "episodios": 32,
+      "duracaoep": 48,
+      "streaming": "Prime Video",
+      "carrossel1": "img/carrossel/invencivel-banner-1.jpg",
+      "carrossel2": "img/carrossel/invencivel-banner-2.jpg",
+      "carrossel3": "img/carrossel/invencivel-banner-3.jpg",
+      "avaliacao": 8.7,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S004",
+      "titulo": "Rick and Morty",
+      "estreia": "02-12-2013",
+      "ano": 2013,
+      "imagem": "img/banners/banner-rickandmorty.jpg",
+      "sinopse": "Rick and Morty é uma série animada que acompanha as aventuras e os descobrimentos de um super cientista e seu neto não muito brilhante. Completamente irresponsável, Rick não é um avô amoroso e gentil. Muito pelo contrário, ele usa o neto, Morty, como cobaia em seus experimentos e não leva em consideração a segurança do jovem em suas aventuras intergaláticas. Mas mesmo com diversos desentendimentos, os dois se divertem descobrindo lugares incríveis e criaturas assustadoras através de universos e galáxias desconhecidas. Além dos dois, a série também acompanha os outros membros da família: Beth, mãe de Morty e filha de Rick com quem ele tem uma relação complicada, Jerry, o genro de Rick por quem ele sente desprezo e Summer, irmã mais velha de Morty que também acompanha o irmão e o avô em suas aventuras. Enquanto encaram perigos inimagináveis, a família Smith acaba descobrindo muito sobre uns aos outros.",
+      "genero": [
+        "Comédia",
+        "Humor Negro",
+        "Aventura",
+        "Ficção científica"
+      ],
+      "temporadas": 9,
+      "episodios": 90,
+      "duracaoep": 24,
+      "streaming": "HBO MAX",
+      "carrossel1": "img/carrossel/rickandmorty-banner-jerrys.png",
+      "carrossel2": "img/carrossel/rickandmorty-banner-vinho.jpg",
+      "carrossel3": "img/carrossel/rickandmorty-banner-protal.jpg",
+      "avaliacao": 9,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S005",
+      "titulo": "One Piece",
+      "estreia": "20-10-1999",
+      "ano": 1999,
+      "imagem": "img/banners/banner-one-piece.jpg",
+      "sinopse": "Em One Piece, conhecemos as aventuras de Monkey D. Luffy e sua equipe de piratas, navegando por oceanos fantásticos e ilhas exóticas em busca do maior tesouro já deixado pelo lendário Gold Roger. Luffy acredita na lenda do tesouro e sai em uma busca extraordinária na esperança de proclamar para si o título de Rei dos Piratas. Logo no início da jornada, Luffy conhece Roronoa Zoro, um espadachim musculoso que se torna o seu braço direito durante a expedição. Eles são acompanhados pela jovem ladra Nami, o atirador mentiroso Usopp, e Sanji, o chefe de cozinha da embarcação.",
+      "genero": [
+        "Fantasia",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 20,
+      "episodios": 1170,
+      "duracaoep": 24,
+      "streaming": "Netflix",
+      "carrossel1": "img/carrossel/onepiece-banner-marineford.jpg",
+      "carrossel2": "img/carrossel/onepiece-banner-zoro.jpg",
+      "carrossel3": "img/carrossel/onepiece-banner-merry.jpg",
+      "avaliacao": 9,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S006",
+      "titulo": "Caçadores de Trolls",
+      "estreia": "23-12-2016",
+      "ano": 2016,
+      "imagem": "img/banners/banner-trollhunters.jpg",
+      "sinopse": "Da imaginação sem limites do aclamado cineasta Guillermo Del Toro, vem um conto de dois mundos prestes a colidir na saga épica da DreamWorks, Caçadores de Trolls. Quando o adolescente comum Jim Lake Jr. se depara com um amuleto místico a caminho da escola, um dia descobre inadvertidamente uma civilização secreta extraordinária de poderosos trolls sob sua pequena cidade de Arcadia. De repente destinado a desempenhar um papel crucial em uma antiga batalha do bem e do mal, Jim está determinado a salvar o mundo, logo após sua aula de ginástica.",
+      "genero": [
+        "Fantasia",
+        "Animação",
+        "Aventura"
+      ],
+      "temporadas": 3,
+      "episodios": 52,
+      "duracaoep": 24,
+      "streaming": "Netflix",
+      "carrossel1": "img/carrossel/trollhunters-banner-cristais.jpg",
+      "carrossel2": "img/carrossel/trollhunters-banner-equipe.jpg",
+      "carrossel3": "img/carrossel/trollhunters-banner-trolls.jpg",
+      "avaliacao": 8.4,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S007",
+      "titulo": "JoJo's Bizarres Adventures",
+      "estreia": "06-10-2012",
+      "ano": 2012,
+      "imagem": "img/banners/banner-jojo.jpg",
+      "sinopse": "A série JoJo's Bizarre Adventure acompanha as misteriosas e sobrenaturais aventuras da família Joestar ao longo de diferentes gerações, desde o século XIX até os dias atuais.  A narrativa central gira em torno do destino da família, marcada por uma mancha em forma de estrela, que luta contra ameaças imortais como o vampiro Dio Brando e outros vilões poderosos.",
+      "genero": [
+        "Terror",
+        "Sobrenatural",
+        "Aventura"
+      ],
+      "temporadas": 7,
+      "episodios": 191,
+      "duracaoep": 24,
+      "streaming": "Netflix",
+      "carrossel1": "img/carrossel/jojo-banner-equipe.jpg",
+      "carrossel2": "img/carrossel/jojo-banner-1.jpg",
+      "carrossel3": "img/carrossel/jojo-banner-pilar.png",
+      "avaliacao": 8.6,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S008",
+      "titulo": "The Boys",
+      "estreia": "26-07-2019",
+      "ano": 2019,
+      "imagem": "img/banners/banner-the-boys.jpg",
+      "sinopse": "Em The Boys, existe um mundo onde os super-heróis, conhecidos como Supes, são reverenciados como celebridades, administrados pela poderosa Vought International. No entanto, por trás da fachada glamorosa está uma verdade sombria: a maioria dos Supes é corrupta e abusa de seus poderes. A história segue dois grupos: The Boys, vigilantes que buscam vingança contra Supes por traumas passados, e The Seven, a principal equipe de super-heróis de Vought liderada pelo implacável Homelander. Quando Hughie se junta aos Garotos para se vingar depois que um Supe mata sua namorada, e o idealista Starlight se junta aos Sete apenas para descobrir sua corrupção, os dois grupos se enfrentam em uma luta brutal para expor os segredos de Vought e desmantelar seu controle sobre os Supes corruptos, confundindo as linhas entre o bem e o mal em um mundo onde o imenso poder gera imensa corrupção.",
+      "genero": [
+        "Ação",
+        "Comédia",
+        "Ficção científica"
+      ],
+      "temporadas": 5,
+      "episodios": 40,
+      "duracaoep": 58,
+      "streaming": "Prime Video",
+      "carrossel1": "img/carrossel/theboys-banner-sete.jpg",
+      "carrossel2": "img/carrossel/theboys-banner-patria.jpg",
+      "carrossel3": "img/carrossel/theboys-banner-theboys.jpg",
+      "avaliacao": 8.5,
+      "tipo": "Live-action",
+      "listaepisodios": []
+    },
+    {
+      "id": "S009",
+      "titulo": "Steven Universo",
+      "estreia": "04-11-2013",
+      "ano": 2013,
+      "imagem": "img/banners/banner-steven-univero.jpg",
+      "sinopse": "Em Steven Universe, a Terra é protegida por uma equipe de guardiãs Gems, as Crystal Gems. A fonte de sua magia provém das pedras preciosas presas a seus corpos que conferem habilidades mágicas. A princípio, as Gems integrantes desse grupo são: Garnet, Pérola, Ametista e Steven. Este último é o mais novo delas, uma vez que herdou a pedra de sua mãe, Rose Quartz, no dia de seu nascimento. Enquanto ele tenta descobrir os segredos por trás de sua pedra, Steven passeia por Beach City ou por diferentes mundos com as Gems, seja divertindo-se ou saindo em missões para salvar o mundo de ameaças.",
+      "genero": [
+        "Ação",
+        "Comédia",
+        "Ficção científica",
+        "Fantasia"
+      ],
+      "temporadas": 5,
+      "episodios": 159,
+      "duracaoep": 11,
+      "streaming": "HBO Max",
+      "carrossel1": "img/carrossel/stevenuniverso-banner-1.jpg",
+      "carrossel2": "img/carrossel/stevenuniverso-banner-2.jpg",
+      "carrossel3": "img/carrossel/stevenuniverso-banner-3.png",
+      "avaliacao": 8.1,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S010",
+      "titulo": "Ben 10: Força Alienígena",
+      "estreia": "18-04-2008",
+      "ano": 2008,
+      "imagem": "img/banners/banner-forca-alienigena.jpg",
+      "sinopse": "Cinco anos após a série original, Ben reaparece sem o Omnitrix, vivendo a vida normal a qual foi privado de ter. Todavia seu avô Max desaparece misteriosamente, e junto com isso diversos novos alienígenas invadem o planeta, obrigando o jovem a retornar a vida de salvador da Terra. Mas para combater as novas ameaças; o Omnitix de Ben acaba reiniciando, dando a ele um novo conjunto de 10 alienígenas. Junto de Gwen e seu antigo inimigo Kevin Levin; eles partem em missões encarando novos vilões e adquirindo novos alienígenas pelo tempo.",
+      "genero": [
+        "Ficção científica",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 3,
+      "episodios": 46,
+      "duracaoep": 22,
+      "streaming": "HBO max",
+      "carrossel1": "img/carrossel/ben10-banner-benegwen.jpg",
+      "carrossel2": "img/carrossel/ben10-banner-viagemnotempo.jpg",
+      "carrossel3": "img/carrossel/ben10-banner-vilgax.jpg",
+      "avaliacao": 7.6,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S011",
+      "titulo": "Ben 10: Supremacia Alienígena",
+      "estreia": "23-04-2010",
+      "ano": 2010,
+      "imagem": "img/banners/banner-supremacia-alienigena.jpg",
+      "sinopse": "Após a destruição do Ominitrix original, Ben recebe de Albedo; sua cópia que tentou matá-lo e que não era nada mais do que um Galvaniano (uma das inúmeras espécies alienígenas de Ben); discípulo de Azmuth, o criador do Omnitrix original, o 'Super Ominitrix', uma versão melhorada do Omnitrix capaz de evoluir alguns alienígenas. Ainda na companhia de Gwen e Kevin, ele continua sua luta contra os extraterrestres e adquire mais espécies alienígenas. Na primeira temporada ele luta contra Aggregor, um Osmosiano que tenta dominar o universo.",
+      "genero": [
+        "Ficção científica",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 3,
+      "episodios": 52,
+      "duracaoep": 22,
+      "streaming": "HBO max",
+      "carrossel1": "img/carrossel/ben10-banner-benegwen.jpg",
+      "carrossel2": "img/carrossel/ben10-banner-viagemnotempo.jpg",
+      "carrossel3": "img/carrossel/ben10-banner-vilgax.jpg",
+      "avaliacao": 7.8,
+      "tipo": "Animação",
+      "listaepisodios": []
+    },
+    {
+      "id": "S012",
+      "titulo": "Ben 10: Omniverse",
+      "estreia": "22-09-2012",
+      "ano": 2012,
+      "imagem": "img/banners/banner-omniverse.jpg",
+      "sinopse": "Ben recebe um novo Omnitrix, com novas transformações. Esta versão é a original, pois ele só havia recebido protótipos ao longo de sua jornada, e essa versão começou a ser produzida logo quando ganhou seu primeiro Omnitrix. No entanto, este Omnitrix ainda está em fase de testes e nem sempre fornece a Ben a transformação alienígena que ele pediu, transformando-o em outro ser indesejado, o que cria situações engraçadas para o nosso herói. ",
+      "genero": [
+        "Ficção científica",
+        "Ação",
+        "Aventura"
+      ],
+      "temporadas": 8,
+      "episodios": 80,
+      "duracaoep": 22,
+      "streaming": "HBO max",
+      "carrossel1": "img/carrossel/ben10-banner-benegwen.jpg",
+      "carrossel2": "img/carrossel/ben10-banner-viagemnotempo.jpg",
+      "carrossel3": "img/carrossel/ben10-banner-vilgax.jpg",
+      "avaliacao": 6.7,
+      "tipo": "Animação",
+      "listaepisodios": []
+    }
+  ],
+  "filmes": [
+    {
+      "id": "F001",
+      "titulo": "Homem-Aranha no aranhaverso",
+      "estreia": "10-01-2019",
+      "ano": 2019,
+      "imagem": "img/banners/banner-aranhaverso-1.jpg",
+      "sinopse": "Em Homem-Aranha no Aranhaverso, Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras versões do Homem-Aranha.",
+      "genero": [
+        "Ficção Científica",
+        "Fantasia",
+        "Ação",
+        "Aventura"
+      ],
+      "duracao": "111min",
+      "streaming": "Prime Video",
+      "carrossel1": "img/carrossel/aranhaverso-banner-1.jpg",
+      "carrossel2": "img/carrossel/aranhaverso-banner-2.jpg",
+      "carrossel3": "img/carrossel/aranhaverso-banner-3.jpg",
+      "avaliacao": 8.4,
+      "tipo": "Animação"
+    },
+    {
+      "id": "F002",
+      "titulo": "Lego Batman Movie",
+      "estreia": "09-02-2017",
+      "ano": 2017,
+      "imagem": "img/banners/banner-lego-batman.jpg",
+      "sinopse": "Extremamente egocêntrico, Batman leva uma vida solitária como o herói de Gotham City. Apesar disto, ele curte bastante o posto de celebridade e o fato de sempre ser chamado pela polícia quando surge algum problema - que ele, inevitavelmente, resolve. Quando o comissário Gordon se aposenta, quem assume em seu lugar é sua filha Barbara Gordon, que deseja implementar alguns métodos de eficiência de forma que a polícia não seja tão dependente do Batman. O herói, é claro, não gosta da ideia, por mais que sinta uma forte atração por Barbara. Paralelamente, o Coringa elabora um plano contra o Homem-Morcego motivado pelo fato de que ele não o reconhece como seu maior arquinimigo.",
+      "genero": [
+        "Comédia",
+        "Ação",
+        "Aventura"
+      ],
+      "duracao": "104min",
+      "streaming": "HBO Max",
+      "carrossel1": "img/carrossel/legobatman-banner-1.jpg",
+      "carrossel2": "img/carrossel/legobatman-banner-2.jpg",
+      "carrossel3": "img/carrossel/legobatman-banner-3.jpg",
+      "avaliacao": 7.3,
+      "tipo": "Animação"
+    },
+    {
+      "id": "F003",
+      "titulo": "Homem-Aranha através do aranhaverso",
+      "estreia": "01-06-2023",
+      "ano": 2023,
+      "imagem": "img/banners/banner-aranhaverso-2.jpg",
+      "sinopse": "Homem-Aranha: Através do Aranhaverso, é a continuação do vencedor do Oscar Homem-Aranha: No Aranhaverso, de 2018, que acompanha Miles Morales (Shameik Moore), o simpático Homem-Aranha do Brooklyn. Neste novo capítulo, Miles está de volta para uma nova missão em sua agitada vida como super herói. No novo filme, Morales é transportado para uma aventura épica através do multiverso, e deve unir forças com a mulher-aranha Gwen Stacy (Hailee Steinfeld) e um novo time de Pessoas-Aranha, formado por heróis de diversas dimensões. No entanto, tudo muda quando os heróis entram em conflito sobre como lidar com uma nova ameaça, e Miles se vê em um impasse. E para piorar ainda mais a situação, eles precisam enfrentar um vilão muito mais poderoso do que qualquer coisa que já tenham encontrado antes. Agora, para salvar as pessoas que ele mais ama no mundo, Miles deve redefinir o que significa ser um super herói.",
+      "genero": [
+        "Ficção Científica",
+        "Fantasia",
+        "Ação",
+        "Aventura"
+      ],
+      "duracao": "141min",
+      "streaming": "Prime Video",
+      "carrossel1": "img/carrossel/aranhaverso2-banner-1.jpg",
+      "carrossel2": "img/carrossel/aranhaverso2-banner-2.jpg",
+      "carrossel3": "img/carrossel/aranhaverso2-banner-3.jpg",
+      "avaliacao": 8.4,
+      "tipo": "Animação"
+    },
+    {
+      "id": "F004",
+      "titulo": "Homem-Aranha: Um Novo Dia",
+      "estreia": "29-07-2026",
+      "ano": 2026,
+      "imagem": "img/banners/banner-um-novo-dia.jpg",
+      "sinopse": "Homem-Aranha: Através do Aranhaverso, é a continuação do vencedor do Oscar Homem-Aranha: No Aranhaverso, de 2018, que acompanha Miles Morales (Shameik Moore), o simpático Homem-Aranha do Brooklyn. Neste novo capítulo, Miles está de volta para uma nova missão em sua agitada vida como super herói. No novo filme, Morales é transportado para uma aventura épica através do multiverso, e deve unir forças com a mulher-aranha Gwen Stacy (Hailee Steinfeld) e um novo time de Pessoas-Aranha, formado por heróis de diversas dimensões. No entanto, tudo muda quando os heróis entram em conflito sobre como lidar com uma nova ameaça, e Miles se vê em um impasse. E para piorar ainda mais a situação, eles precisam enfrentar um vilão muito mais poderoso do que qualquer coisa que já tenham encontrado antes. Agora, para salvar as pessoas que ele mais ama no mundo, Miles deve redefinir o que significa ser um super herói.",
+      "genero": [
+        "Ficção Científica",
+        "Ação",
+        "Aventura"
+      ],
+      "duracao": "145min",
+      "streaming": "HBO Max",
+      "carrossel1": "img/carrossel/umnovodia-banner-3.jpg",
+      "carrossel2": "img/carrossel/umnovodia-banner-2.jpg",
+      "carrossel3": "img/carrossel/umnovodia-banner-1.jpg",
+      "avaliacao": 8.2,
+      "tipo": "Live-action"
+    }
+  ],
+  "quadrinhos": [
+    {
+      "id": "Q001",
+      "titulo": "Rei de Lata",
+      "estreia": "07-06-2021",
+      "ano": 2021,
+      "imagem": "img/banners/banner-rei-de-lata.jpg",
+      "sinopse": "Em um mundo, que após várias guerras, teve seu pior desastre, foi lançada uma arma biológica que praticamente causou a extinção de todo um país. O que não esperavam é que, após o ataque, toda criança nascida era propícia a ter uma espécie de anormalidade no organismo e eventualmente manifestar algum tipo de poder gerado por seu instinto de sobrevivência, trauma ou situação extrema. Por serem os únicos imunes ao ar, passam a ser odiados e temidos por muitos adultos. As super crianças então, tem que lutar pela sobrevivência em um país pós-guerra.",
+      "genero": [
+        "Ação",
+        "Fantasia"
+      ],
+      "volumes": 8,
+      "capitulos": 83,
+      "streaming": "Tapas",
+      "carrossel1": "img/carrossel/reidelata-banner-jose.jpg",
+      "carrossel2": "img/carrossel/reidelata-banner-criancas.jpg",
+      "carrossel3": "img/carrossel/reidelata-banner-esther.jpg",
+      "avaliacao": 9.8,
+      "tipo": "Animação",
+      "listacapitulos": []
+    },
+    {
+      "id": "Q002",
+      "titulo": "Sense Life",
+      "estreia": "2021",
+      "ano": 2021,
+      "imagem": "img/banners/banner-sense-life.jpg",
+      "sinopse": "Noah é um garoto pacato que procura por um sentido para sua vida, seus dias cotidianos irão sumir após encontrar Kaleb, um usuário de drogas que tem uma grande recompensa por sua cabeça.",
+      "genero": [
+        "Ação",
+        "Comédia"
+      ],
+      "volumes": 2,
+      "capitulos": 17,
+      "streaming": "Fliptru",
+      "carrossel1": "img/carrossel/senselife-banner-1.jpg",
+      "carrossel2": "img/carrossel/senselife-banner-2.png",
+      "carrossel3": "img/carrossel/senselife-banner-3.jpg",
+      "avaliacao": "",
+      "tipo": "Animação",
+      "listacapitulos": []
+    }
+  ],
+  "jogos": [
+    {
+      "id": "J001",
+      "titulo": "Valorant",
+      "estreia": "02-06-2020",
+      "ano": 2020,
+      "imagem": "img/banners/banner-valorant.jpg",
+      "sinopse": "Valorant ocorre em uma versão de uma Terra em um futuro próximo após um evento conhecido como Primeira luz. Este evento abrange todo o globo, levando a grandes transformações na vida, na tecnologia e na forma como os governos operam. No entanto, algumas pessoas em todo o mundo começam a ganhar habilidades decorrentes deste grande evento. Esses indivíduos talentosos são chamados Radiantes.",
+      "genero": [
+        "Atirador Tático"
+      ],
+      "streaming": "WINDOWS",
+      "carrossel1": "img/carrossel/valorant-banner-1.jpg",
+      "carrossel2": "img/carrossel/valorant-banner-2.jpg",
+      "carrossel3": "img/carrossel/valorant-banner-3.jpg",
+      "tipo": "",
+      "avaliacao": 8.1
+    },
+    {
+      "id": "J002",
+      "titulo": "Brawl Stars",
+      "estreia": "12-12-2018",
+      "ano": 2018,
+      "imagem": "img/banners/banner-brawl-stars.jpg",
+      "sinopse": "Brawl Stars é um jogo de ação para celular que se passa no famoso Starr Park, um parque de diversão no qual os donos realizam experimentos estranhos e perigosos, gerando diversas mutações, poderes e um gás venenoso que corre por todo o parque e é letal para todos. Os funcionários, visitantes e outras pessoas presentes no parque de diversão agora lutam, como brawlers, pela sobrevivência, mas sempre acabam revivendo após um confronto.",
+      "genero": [
+        "Beat 'em up"
+      ],
+      "streaming": "ANDROID/IOS",
+      "carrossel1": "img/carrossel/brawl-stars-banner-1.jpg",
+      "carrossel2": "img/carrossel/brawl-stars-banner-2.jpg",
+      "carrossel3": "img/carrossel/brawl-stars-banner-3.jpg",
+      "tipo": "",
+      "avaliacao": 7.2
+    }
+  ],
+  "personagens": [
+    {
+      "id": "P0001",
+      "obra": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Benjamin Tennyson",
+      "icone": "img/ben10/ben-icone.jpg",
+      "imagem": "img/ben10/benjamin-img.jpg",
+      "especie": "humano",
+      "idade": 16,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói",
+        "\nencanador"
+      ],
+      "descricao": "Benjamin Kirby Tennyson, conhecido unversalmente como Ben 10 é um super-herói de Bellwood e membro dos encanadores. Aos 10 anos, Ben encontrou o Omnitrix, um dispositivo criado po Azimuth que o permite se transformar em inúmeras espécies de alienígenas, se tornando um herói conhecido por toda a galáxia por salvar o universo incontáveis vezes.",
+      "primeiraap": "E então eram 10",
+      "aparicoes": [
+        "Ben 10",
+        "\nBen 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0046",
+        "P0051"
+      ],
+      "habilidades": [
+        "Ben possui treinamento em combate - recebido por Gwen e seu avô Max - e um treinamento de encanador, o qual realizou com Gwen e Kevin. Além disso, Ben já mostrou ser muito habilidoso e ágil, podendo desviar de golpes dos inimigos e projéteis mais rápidos, como os disparos de Manny.",
+        "Na Academia de Encanadores, Ben recebeu nota 95/100 em combate corpo a corpo, mesmo sem usar os poderes do Superominitrix.",
+        "Ben também já enfrentou a imperatriz incursiana Attea e Pierce e se saiu muito bem nos dois confrontos - apenas perdendo para Pierce de propósito.",
+        "Além disso, Ben recebe diversas habilidades difrentes com suas transformações do Ominitrix, como por exemplo: força aprimorada, velocidade aprimorada, resistência aprimorada, pirocinese, clorocinese, intangibilidade, entre outros."
+      ],
+      "curiosidades": [
+        "Ben é muito fã da franquia 'Lutadores de Sumô', provando seu vício inúmeras vezes durante todas as séries, seja com seriados, filmes, videogames (chegando até a ficar preso dentro do jogo com Gwen), card games e outros",
+        "A coisa que Ben mais adora o Senhor Sorvete, mostrado pelos Contumélios em 'Um novo Amanhecer'. Apesar disso, Ben nunca repetiu um sabor de vitamina até provar novamente o sabor Uva depois de recriar todo o unvierso. Ben percebe então que a vitamina de uva não tem mais o mesmo sabor de antes",
+        "O primeiro Beijo de Ben foi com a atriz Jennifer Nocturne, no episódio 'Hora do Herói', enquanto Ben ainda namorava Julie",
+        "Ben odeia a comida alienígena, principalmente quando feita pelo Vô Max, mas adora sorvete com sabor artificial de Tiffin"
+      ],
+      "galeria": [
+        "img/ben10/benjamin-banner-1.jpg",
+        "img/ben10/ben23-banner-2.jpg",
+        "img/ben10/ben10-banner-3.jpg",
+        "img/ben10/benjamin-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0002",
+      "obra": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Gwendolyn Tennyson",
+      "icone": "img/ben10/gwen-icone.jpg",
+      "imagem": "img/ben10/gwen-img.jpg",
+      "especie": "humano/anodita",
+      "idade": 16,
+      "genero": "feminino",
+      "status": "viva",
+      "ocupacao": [
+        "heroína",
+        "\nencanadora"
+      ],
+      "descricao": "Gwen é prima paterna de Ben e acompanha o protagonista durante as séries Classica, Força alienígena e Supremacia alienígena. Ainda quando criança, durante as férias de verão, Gwen, explorando um livro de magia, descobre sua habilidade de manipular mana, o que futuramente descobre-se ser relacionada à avó Verdona, que é uma Anodita.",
+      "primeiraap": "E então eram 10",
+      "aparicoes": [
+        "Ben 10",
+        "\nBen 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0001",
+        "P0003",
+        "P0004"
+      ],
+      "habilidades": [
+        "Gwen possui grandes habilidades marciais, como visto desde o primeiro episódio de Força alienígena, onde Gwen aparece treinando Karate (estilo de luta no qual Gwen ganhou faixa preta). Além disso, possui habilidades com Judô, Jiu-jitsu, savate e Taekwondo. Gwen também é extremamente ágil e acrobática, demonstrando saber realizar mortais no ar e possuir reflexos bastantes apriomorados.",
+        "As habilidades anoditas de Gwen a permitem manipular seu mana livremente, produzindo bolhas, escudos, campos de força, projéteis e diversas outras coisas.",
+        "Gwen pode assumir uma forma anodita que aprimora todas as suas habilidades. Assim, Gwen pode voar e levitar, aumentar de tamanho, projetar campos de força e esferas de mana, além de receber força e resistência apriomorados.",
+        "Gwen consegue ler a aura de pessoas e também de objetos, podendo usa-los para rastrear determinado indivíduo.",
+        "Gwen pode se teleportar e levar outros consigo, porém isso a exige muito e geralmente é evitado.",
+        "Gwen possui a habilidade de ler e apagar memórias de outros indivíduos, como fez com uma versão si mesma do passado.",
+        "A habilidade anodita também permite Gwen absorver mana de outros indíviduos ou curá-los realizando o oposto (caso esse indivíduoesteja sem mana.",
+        "Gwen pode levitar meditando e também usar seu mana para criar plataformas, tanto para voar em cima, quanto para usar como degraus de uma escada.",
+        "Gwen pode realizar projeção astral, como visto quando ela entra no Ultimatrix e encontra Ben."
+      ],
+      "curiosidades": [
+        "Gwen faz aniversário em dezembro e disputa essa data com o primo Ben",
+        "Gwen teve seu DNA coletado e usado pelo Unitrix para criar Eunice",
+        "Em Omniverse, Gwen mora no campus da faculdade e ainda não sabe qual será sua área de estudo",
+        "Desde pequena, Gwen já tinha Cooper e Kevin como admiradores"
+      ],
+      "galeria": [
+        "img/ben10/gwen-mana-banner-1.jpg",
+        "img/ben10/gwen10-banner-2.jpg",
+        "img/ben10/gwen-banner-3.jpg",
+        "img/ben10/gwen-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0003",
+      "obra": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Max Tennyson",
+      "icone": "img/ben10/max-icone.jpg",
+      "imagem": "img/ben10/max-img.jpg",
+      "especie": "humano",
+      "idade": 66,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "encanador",
+        "\nmagistrado"
+      ],
+      "descricao": "Max é o avô paterno de Ben e Gwen e é um magistrado encanador conhecido por todo o espaço. Originalmente, o Omnitrix foi encaminhado a Max por Xylene, durante as férias de verão de Ben e Gwen, mas acabou encontrando primerio Ben graças a compatibilidade de DNA que Max possui com o neto. Max gerencia a base de encanadores da terra.",
+      "primeiraap": "E então eram 10",
+      "aparicoes": [
+        "Ben 10",
+        "\nBen 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0001",
+        "P0002"
+      ],
+      "habilidades": [
+        "Max possui diversos treinamentos pelos encanadores, conseguindo manipular qualquer tipo de equipamento e tecnologia encanadora.",
+        "Max também possui treinamento militar do periodo em que serviu as forças aéreas americanas como piloto de caça.",
+        "Na série clássica, Max usava um traje de encanador que possuia diversas funções, entre elas: disparar cordas, jatos propulsores, projetar lâminas e disparar bombas"
+      ],
+      "curiosidades": [
+        "Max possui um gosto muito extraordinário para comidas alienígenas e adora cozinhar. Durante toda a série, apenas Rook gostou das comidas feitas por Max, enquanto Ben e Gwen sempre a odiaram",
+        "Max já se transformou em alienígena duas vezes durante a série: uma vez pelo doutor animal em 'Doutor Animal e o Raio Mutante' e uma segunda vez quando se transformou em Ultra T usando o Omnitrix em 'Gwen 10'",
+        "Max deveria ter sido o primeiro homem a pisar na lua, pela Nasa, mas acabou perdendo a oportunidade decidindo se tornar um encanador",
+        "Max já se relacionou com duas alienígenas: Xylene e Verdona"
+      ],
+      "galeria": [
+        "img/ben10/max-banner-1.jpg",
+        "img/ben10/max-banner-2.jpg",
+        "img/ben10/max-banner-3.jpg",
+        "img/ben10/max-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0004",
+      "obra": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Kevin Levin",
+      "icone": "img/ben10/kevin-icone.jpg",
+      "imagem": "img/ben10/kevin-img.jpg",
+      "especie": "humano (osmosiano)",
+      "idade": 17,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói",
+        "\nencanador"
+      ],
+      "descricao": "Kevin Ethan Levin é um Osmosiano, o melhor amigo do Ben e atualmente o namorado da Gwen. No início da franquia, Kevin, ainda quando criança, era um vilão formidável de Ben, sedento por poder e aficcionado pelo Ominitrix, se tornando um aliado apenas em Força alienígena, depois de passar alguns anos dentro da nulidade.",
+      "primeiraap": "Kevin 11",
+      "aparicoes": [
+        "Ben 10",
+        "\nBen 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0001",
+        "P0002"
+      ],
+      "habilidades": [
+        "Durante a série clássica, Kevin mostrou possuir a habilidade de absorver, acumular e disparar energia à sua vontade, podendo controlar tecnologia. Além disso, Kevin conseguiu absorver parcela dos poderes dos aliens do Omnitrix, podendo assim assumir a forma dos mesmos aliens de Ben",
+        "Kevin pode absorver completamente a energia e poder de outros seres vivos, como visto diversas vezes quando absorve cartelas de DNA do Omnitrix de Ben ou quando drena os poderes de Agregor",
+        "Durante o período que passou na nulidade, Kevin é mentorado por Kwarrel e aprende a absorver também as propriedades de diversos materiais como metais ou cristais alienígenas como tadenita. Nesse estado, Kevin transforma partes do corpo, ou o corpo inteiro, no material que absorve e consegue mudar em seu corpo em ferramentas que o auxiliam em combate",
+        "Kevin também possui bastante treinamento de combate e bastante conhecimento sobre tecnologia alienígena"
+      ],
+      "curiosidades": [
+        "Kevin é aficcionado por seu carro e passa diversos momentos na série fazendo reparos e upgrades no mesmo. Kevin é visto com Rook na feira de carros em algumas ocasiões tentando deixar seu carro 'à prova das transformações do Ben'",
+        "Em Omniverse seu visual se assemelha bastante ao design da série clássica, na qual usava uma camisa rasgada e um cordão com o número 11",
+        "Kevin possui uma cicatriz no queixo feita por Fogo Fátuo em uma luta em Omniverse quando Kevin absorve os poderes dos aliens do Omnitrix definitivo",
+        "No episódio 'A Raiz de Todo o mal', é revelado que Kevin é um humano mutante e não um híbrido de outra espécie"
+      ],
+      "galeria": [
+        "img/ben10/kevinmonster-banner-1.jpg",
+        "img/ben10/kevineben-banner-2.jpg",
+        "img/ben10/kevin-banner-3.jpg",
+        "img/ben10/kevinmonstrer-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0005",
+      "obra": [
+        "S012"
+      ],
+      "nome": "Rook Blonko",
+      "icone": "img/ben10/rook-icone.jpg",
+      "imagem": "img/ben10/rook-img.jpg",
+      "especie": "revonnahgandero",
+      "idade": "Entre 16 e 17",
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "encanador",
+      "descricao": "Rook é o parceiro de Ben em Ben 10: Omniverse, sendo um Revonnahgandero recém formado na academia de encanadores e vindo de Revonnah. Rook se formou na academia sendo o primeiro da sua turma, mas ainda não entende profundamente como é a vida na terra e como ser um herói ao lado de Ben. Ben passa diversos episódios ensinando Rook gírias terrestres.",
+      "primeiraap": "Quanto Mais as Coisas Mudam, Parte 1",
+      "aparicoes": [
+        "Ben 10: Omnitrix"
+      ],
+      "relacoes": [
+        "P0001"
+      ],
+      "habilidades": [
+        "Rook luta usando diversas armas e equipamentos encanadores, principalmente sua Proto-arma, que o possibilida se adaptar a muitas situações de combate. Rook também conta com sua Proto-armadura, um equipamento encanador de extrema resistência",
+        "Rook possui grandes habilidades atléticas, acrobáticas e é bastante veloz",
+        "Rook também é treinado em uma arte marcial especial de Revonnah, que faz parte da cultura local e é ensinada aos nativos para proteger a plantação de Ogia Ambar"
+      ],
+      "curiosidades": [
+        "Rook imaginava que o Alien-X era um mito criado pelos fãs do Ben na extremamente",
+        "No episódio 'A Última Contagem Regressiva', no qual é apresentado o futuro de Max Tennyson, mostra-se que Rook é promovido a magistrado",
+        "Em 'Um Novo Amanhecer', Rook vê os Contumélios como seu pai, Rook Da, confirmando que o mesmo é o que Rook mais gosta no universo",
+        "Rook gosta tanto de veículos quanto Kevin, mostrando bastante interesse na feira de carros e em aprimorar seu Proto-caminhão"
+      ],
+      "galeria": [
+        "img/ben10/rookekyber-banner-1.jpg",
+        "img/ben10/rookkid-banner-2.jpg",
+        "img/ben10/rookglutao-banner-3.jpg",
+        "img/ben10/rookeben-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0006",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Marinette Dupain-Cheng",
+      "icone": "img/miraculous/marinette-icone.jpg",
+      "imagem": "img/miraculous/marinette-img.jpg",
+      "especie": "humano",
+      "idade": 14,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "estudante",
+        "heroína"
+      ],
+      "descricao": "Marinette é uma estudante da cidade de Paris, na França e que aos treze anos de idade recebeu uma das joias mágicas (conhecidas como miraculous) mais poderosas que existem: o miraculous da joaninha. Marinette agora protege os cidadãos de Paris, com a identidade de Ladybug, do portador malígno do miraculous da borboleta.",
+      "primeiraap": "Tormenta",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [
+        "P0007",
+        "P0058",
+        "P0008"
+      ],
+      "habilidades": [
+        "Marinette possui bastante habilidade com desenho, costura e outras habilidades manuais, como visto muitas vezes durante a série quando a mesma, por exemplo, fez o chapéu pombo para um desfile do Adrian, figurinos para fotos em 'Reflekta' ou quando personalizou um óculos da Torre Eifell para Jagged Stone em 'Pixelador'. Marinette trabalha num site para exibir seus designs de moda.",
+        "Marinette é bastante inteligente e dedicada, além de bastante preparada e estrategista, como mostrado no episódio em que Monarch tenta desbrir a identidade de Ladybug através dos kwamis, mas Marinette já tinha uma armadilha completamente preparada para a ocasião.",
+        "Marinette é muito boa com videogames e foi campeã de um torneio de um famoso jogo de luta ao lado de Max."
+      ],
+      "curiosidades": [
+        "Marinette possui contas reais no instagram e no facebook, nas quais são reveladas algumas informações como: Marinette fez seu primeiro desenho de moda com 5 ou 6 anos. As vezes Marinette media com sua mãe pela manhã. Sempre carrega um kit de costura em sua mochila, entre outras curiosidades",
+        "Marinette é a primeia pessoa a se tornar, ao mesmo tempo, guardiã da caixa dos miraculous e usuária de um miraculous, além de ser a primeira mulher guardiãda caixa",
+        "Marinette e Ladybug aparecem em todos os episódios da série com apenas duas exceções: Em 'Evolução', Marinette permanece o episódio inteiro em sua transformação, enquanto em 'Transmissão', Ladybug aparece apenas em flashbacks",
+        "Mainette já escreveu um lista com mais de 600 dicas essenciais para ser uma heróina no episódio 'Hack-San'"
+      ],
+      "galeria": [
+        "img/miraculous/marinette-banner-2.jpg",
+        "img/miraculous/marinette-banner-4.jpg",
+        "img/miraculous/marinette-banner-3.jpg",
+        "img/miraculous/marinette-banner-1.jpg"
+      ]
+    },
+    {
+      "id": "P0007",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Ladybug",
+      "icone": "img/miraculous/ladybug-icone.jpg",
+      "imagem": "img/miraculous/ladybug-img.jpg",
+      "especie": "humano",
+      "idade": 14,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "heroína"
+      ],
+      "descricao": "Ladybug é a heróina da joaninha que, ao lado de Cat Noir, protege Paris do usuário do miraculous da borboleta. Ladybug também é a guardiã da caixa dos miraculous e lidera a equipe dos miraculers. Ladybug é a única que pode combater os akumas e os vilões criados pelos mesmos, podendo purifica-los após um confronto e salvar a cidade.",
+      "primeiraap": "Tormenta",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [
+        "P0006",
+        "P0009"
+      ],
+      "habilidades": [
+        "Ladybug usa o miraculous da joaninha, que oferece o poder da criação.",
+        "Ladybug possui todo tipo de atributo aprimorado: velocidade, força (como já vista levantando a Torre Eifell usando apenas seu ioiô), resistência e reflexos, a possibilitando receber ataques poderosos de seus inimigos ou mesmo desviar de golpes e projéteis de laser em alta velocidade.",
+        "Ladybug é extremamente habilidosa em combate corpo a corpo e suas habilidades de joaninha a permitem andar em superfícies extremamente íngrimes ou até mesmo em paredes.",
+        "A principal habilidade da Ladybug é o Talismã, que cria um objeto aleatório que a ajuda a vencer determinado inimigo ou desafio. Até o episódio 'Revanche', na quinta temporada, usar o talismã obrigava Ladybug a se destransformar em 5 minutos. Além disso, ao final do confronto, Ladybug pode usar sua segunda habilidade: 'Miraculous Ladybug' jogando seu talismã para cima. Essa habilidade a permite reverter completamente qualquer tipo de dano causado por um inimigo específico.",
+        "Como possui o poder da criação, os poderes de Ladybug não possuiem muitas limitações, como visto em 'Família Querida' quando Tikki usa seu poder para criar um doce gigante acima do planeta Terra. Ladybug usa dessa criação para gerar talismãs mágicos para os cidadãos de Paris que os impedem de ser akumatizados."
+      ],
+      "curiosidades": [
+        "Atualmente, 10 personagens conhecem a verdadeira identidade da Ladybug, e são elas: Plagg, Alya Césaire, Kyoko Tsurugi, Félix, Nathalie Sancoeur, Su-Han, Luka Couffaine, Marinette e Adrian alternativos e Alix Kubdel",
+        "Marinette, como ladybug, é a única pessoa viva e na realidade atual da série que já usou simultaneamente o miraculous da joaninha e o do gato preto. (Outros que já usaram foram Gabriel Agreste, que realizou seu desejo e Laila, que foi impedida por Bunnix e Chronobug)",
+        "Ladybug já enfrentou outros 7 personagens que possui habilidades extremamente semlhantes às suas, sendo eles: Chloé, como Antibug em 'Antibug', Sabrina, como Miraculer, Um sentimonstro da Ladybug feito por Mayura, uma boneca gigante invocada por Chrismaster, sua cópia malígna de um sonho do Cat Noir, uma estátua do museu de cera e sua contraparte alternativa no especial de Paris",
+        "O design do traje da ladybug é pensado pra evoluir conforme o crescimento da Marinette como personagem, ficando mais detalhado conforme Marinette descobre as responsbilidades de ser a Ladybug"
+      ],
+      "galeria": [
+        "img/miraculous/ladybug-banner-1.jpg",
+        "img/miraculous/ladybug-banner-2.jpg",
+        "img/miraculous/ladybug-banner-3.jpg",
+        "img/miraculous/ladybug-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0008",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Adrian Agreste",
+      "icone": "img/miraculous/adrian-icone.jpg",
+      "imagem": "img/miraculous/adrian-img.jpg",
+      "especie": "humano",
+      "idade": 15,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "estudante",
+        "\nherói"
+      ],
+      "descricao": "Adrian Agreste é um modelo parisiense e filho do famoso estilista Gabriel Agreste, além do usuário do miraculous do gato preto. Adrian perdeu a mãe cedo devido ao uso inadequado do miraculous quebrado do pavão e apesar de sua vida luxuosa, sempre quis ser um garoto normal, ir para escola e ter uma festa de aniversário.",
+      "primeiraap": "Tormenta",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [
+        "P0006",
+        "P0009",
+        "P0059",
+        "P0060",
+        "P0010"
+      ],
+      "habilidades": [
+        "Adrian é extremamente dedicado e estudioso - sua menor nota na escola foi um 9 em matemática - e é mostrado que possui bastante conhecimento em física, além de saber falar mandarim e japonês.",
+        "Adrian é um exímio lutador de exgrima, podendo derrotar, com facilidade, seu professor de esgrima D'Argencourt e os demais estudantes da sua turma, perdendo apenss pra Kyoko",
+        "Adrian também possui alguns talentos como: é bastante habilidoso com diversos videogames, ganhando até mesmo de Max, e sabe fazer alguns truques de mágica"
+      ],
+      "curiosidades": [
+        "Segundo o dublador de Gabriel Agreste, Adrian não tem permissão para jogar Pokemon GO",
+        "Assim como Marinette, Adrian possui contas reais no instagram e no Facebook que revelam informações como: Adrian gostaria de morar em uma casa pequena ou chalé. Os livros de seu quarto são os favoritos da Nathalie. Quando pequeno, tinha medo de trovões",
+        "O parque é o lugar preferido do Adrian para suas sessões de fotos. Além disso, no intervalo dessas sessões, Adrian costuma ler românces clássicos"
+      ],
+      "galeria": [
+        "img/miraculous/adrian-banner-1.jpg",
+        "img/miraculous/adrian-banner-2.jpg",
+        "img/miraculous/adrian-banner-3.jpg",
+        "img/miraculous/adrian-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0009",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Cat Noir",
+      "icone": "img/miraculous/catnoir-icone.jpg",
+      "imagem": "img/miraculous/catnoir-img.jpg",
+      "especie": "humano",
+      "idade": 15,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói"
+      ],
+      "descricao": "Cat Noir é o herói do gato preto e parceiro da Ladybug no combate aos supervilões akumatizados de Paris. Além disso, é filho do temido vilão Hawk Moth, apesar de não saber disso até o momento atual da série. Cat Noir contrasta com Ladybug tanto em personalidade, quanto em habilidades, sendo seu par yin yang até na própria caixa dos miraculous",
+      "primeiraap": "Tormenta",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [
+        "P0007",
+        "P0008",
+        "P0060"
+      ],
+      "habilidades": [
+        "Cat Noir usa o miraculous do gato preto, que oferece o poder da destruição",
+        "Cat noir possui todo tipo de atributo aprimorado, como velocidade, força, reflexos e resistência, podendo resistir até mesmo ao próprio cataclismo - quando usado por Sabrina, como Miraculer.",
+        ""
+      ],
+      "curiosidades": [
+        "As orelhas e a cauda do Cat Noir fazem parte de seu traje e reagem as emoções como visto em diversas ocasiões: 'Cupido Negro', 'Animan', 'Encrenqueira', 'Anansi' e 'Sanguessuga'. Além disso, o sino em seu traje representa o desejo interno de receber um lar amoroso",
+        "Quando akumatizado, Cat Blank detém o recorde de maior tempo em uma akumatização- durando alguns meses - e também o maior número de mortes dentro da série, matando literalmente todos os habitantes do planeta Terra",
+        "Na linha do tempo principal da série, nem Adrian, nem Cat Noir foram akumatizados, tendo em vista em que ambas as vezes (Cat Blank e Efêmero) em que foi akumatizado as linhas do tempo foram destruídas",
+        "Adrian foi o primeiro sentimonstro revlado a portar um miraculous, seguido de Féix e Kyoko (como Argos e Ryuko, respectivamente)"
+      ],
+      "galeria": [
+        "img/miraculous/catnoir-banner-1.jpg",
+        "img/miraculous/catnoir-banner-2.jpg",
+        "img/miraculous/catnoir-banner-3.jpg",
+        "img/miraculous/catnoir-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0010",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Gabriel Agreste",
+      "icone": "img/miraculous/gabriel-icone.jpg",
+      "imagem": "img/miraculous/gabriel-img.jpg",
+      "especie": "humano",
+      "idade": "-",
+      "genero": "masculino",
+      "status": "morto",
+      "ocupacao": [
+        "estilista",
+        "\nsupervilão"
+      ],
+      "descricao": "Gabriel Agreste é um famoso estilista no mercado global de moda e pai de Adrian Agreste. Depois que sua esposa, Émilie, morreu usando o miraculous do pavão danificado para criar Adrian, Gabriel buscou adquirir os miraculous da joaninha e do gato preto para realizar um pedido a Gimmi, o kwami da realidade e trazer Émilie de volta.",
+      "primeiraap": "Tormenta",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [
+        "P0008"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/miraculous/gabriel-banner-1.jpg",
+        "img/miraculous/gabriel-banner-2.jpg",
+        "img/miraculous/gabriel-banner-3.jpg",
+        "img/miraculous/gabriel-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0011",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Mark Grayson",
+      "icone": "img/invencivel/invencivel-icone.jpg",
+      "imagem": "img/invencivel/mark-img.jpg",
+      "especie": "humano/viltrumita",
+      "idade": 20,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói"
+      ],
+      "descricao": "Mark Grayson é o primeiro filho do Nolan - Omniman - e o defensor do planeta Terra. Aos 17 anos, Mark despertou seus poderes da sua meia parte viltrumita e assumiu papel de herói sob o título de Invencível, lutando ao lado dos guardiões globais para proteger os cidadãos de todo o universo da expansão do império viltrumita.",
+      "primeiraap": "Já Estava na Hora",
+      "aparicoes": [
+        "Invencível"
+      ],
+      "relacoes": [
+        "P0012",
+        "P0014"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/invencivel/mark-banner-1.jpg",
+        "img/invencivel/mark-banner-2.jpg",
+        "img/invencivel/mark-banner-3.jpg",
+        "img/invencivel/mark-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0012",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Omni-Man",
+      "icone": "img/invencivel/omniman-icone.jpg",
+      "imagem": "img/invencivel/omniman-img.jpg",
+      "especie": "viltrumita",
+      "idade": "Mais de 900",
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói"
+      ],
+      "descricao": "Nolan Grayson, conhecido como OmniMan, é um viltrumita selecionado para preparar o planeta Terra para receber a ocupação de sua espécie. Nolan venceu e assassinou todos os guardiões globais mas acabou exitando em matar seu próprio filho. Daí em diante Nolan percebe o valor da vida de espécies consideradas 'impuras' pelos viltrumitas.",
+      "primeiraap": "Já Estava na Hora",
+      "aparicoes": [
+        "Invencível"
+      ],
+      "relacoes": [
+        "P0011"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/invencivel/omniman-banner-1.jpg",
+        "img/invencivel/omniman-banner-2.jpg",
+        "img/invencivel/omniman-banner-3.jpg",
+        "img/invencivel/omniman-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0013",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Conquista",
+      "icone": "img/invencivel/conquista-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0014",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Eve Atômica",
+      "icone": "img/invencivel/eve-atomica-icone.jpg",
+      "imagem": "img/invencivel/eve-img.jpg",
+      "especie": "humano",
+      "idade": 20,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "heroína"
+      ],
+      "descricao": "Samantha Eve, conhecida como Eve Atômca, é uma heroína e antigo membro da força jóvem. Eve é uma humana geneticamente modificada por forças do governo e possui poderes extraordinários. Eve foi chamada para compor os novos Guardiões Globais após o final trágico dos antigos heróis, mas decidiu seguir seus próprios ideais como heroína solo.",
+      "primeiraap": "Ou vai ou Racha",
+      "aparicoes": [
+        "Invencível"
+      ],
+      "relacoes": [
+        "P0011"
+      ],
+      "habilidades": [
+        "Eve é capaz de manipular partículas em nível subatômico, podendo destruir, recontruir, deformar e alterar estruturas livremente, sejam elas matérias orgânicas e inorgânicas. Isso permite Eve gerar alimentos, vestuários - como o próprio traje de heroína - ou até elementos raros como ouro.",
+        "Eve consgue alterar a densidade da atmosfera ao seu redor possibilitando a formação de campos de força e também voar. Além disso, pode usar ddessa manipulação como poderes de telecinese e acumular energia para gerar explosões.",
+        "Como cotrola partículas subatômicas, Eve é capaz de manipular livremente forças e elementos da natureza como água, vento e chamas.",
+        "Eve também é capaz de se regenerar ou restaurar partes de seu corpo. Além de possuir, de certa forma, imortalidade."
+      ],
+      "curiosidades": [
+        "As principais inspirações para Eve Atômica foram as personagens Estelar, da DC comics, Mary Jane e Jean Grey, da Marvel",
+        "Outras inspirações, na questão da vestimenta, são Samantha, de Três Espiãs demais e Kim Possible",
+        "O nome de heroína 'Eve atomica', ou no inglês: 'Atom Eve' é um trocadilho com o nome de seu pai Adam e seu apelido Eve. Além disso, o nome faz referência a passagens bíblicas de Adão e Eva"
+      ],
+      "galeria": [
+        "img/invencivel/eve-banner-1.jpg",
+        "img/invencivel/eve-banner-2.jpg",
+        "img/invencivel/eve-banner-3.jpg",
+        "img/invencivel/eve-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0015",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Thragg",
+      "icone": "img/invencivel/thragg-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0016",
+      "obra": [
+        "S004"
+      ],
+      "nome": "Rick Sanchéz",
+      "icone": "img/rickandmorty/rick-icone.jpg",
+      "imagem": "img/rickandmorty/rick-img.jpg",
+      "especie": "humano",
+      "idade": "50-70",
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "cientista",
+        "\ninventor"
+      ],
+      "descricao": "Rick Sanchéz, ou Rick C-137 é a versão do Rick 'mais Rick'. Rick é um gênio dimensional viciado em bebida e em experimentos imprudentes. Rick viajou até a dimensão Prime, assumindo o lugar do seu eu naquela dimensão, buscando rastros do homem que matou sua esposa em, literalmente, todo o multiverso. Esse homem é o próprio Rick.",
+      "primeiraap": "Piloto",
+      "aparicoes": [
+        "Rick and Morty"
+      ],
+      "relacoes": [
+        "P0017",
+        "P0018",
+        "P0019",
+        "P0020"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/rickandmorty/rick-banner-1.jpg",
+        "img/rickandmorty/rick-banner-2.jpg",
+        "img/rickandmorty/rick-banner-3.jpg",
+        "img/rickandmorty/rick-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0017",
+      "obra": [
+        "S004"
+      ],
+      "nome": "Morty Smith",
+      "icone": "img/rickandmorty/morty-icone.jpg",
+      "imagem": "img/rickandmorty/morty-img.jpg",
+      "especie": "humano",
+      "idade": 14,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "estudante"
+      ],
+      "descricao": "Morty é o neto de Rick e um estudante normal de 14 anos. Morty acompanha seu avô em suas aventuras espaciais como 'diversão', ou como dito por um Rick: A companhia do Morty esconde o intelecto do Rick da federação galática, visto que Morty é tão burro que, quando ao lado de Rick, torna a inteligência do seu avô irrastreável.",
+      "primeiraap": "Piloto",
+      "aparicoes": [
+        "Rick and Morty"
+      ],
+      "relacoes": [
+        "P0016",
+        "P0018",
+        "P0019"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/rickandmorty/morty-banner-1.jpg",
+        "img/rickandmorty/morty-banner-2.jpg",
+        "img/rickandmorty/morty-banner-3.jpg",
+        "img/rickandmorty/morty-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0018",
+      "obra": [
+        "S004"
+      ],
+      "nome": "Summer Smith",
+      "icone": "img/rickandmorty/summer-icone.jpg",
+      "imagem": "img/rickandmorty/summer-img.jpg",
+      "especie": "humano",
+      "idade": 17,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "estudante"
+      ],
+      "descricao": "Summer, da dimensão C-131, é a versão da irmã de Morty que é retratada na série. Summer no início não era bem vinda nas aventuras de Rick and Morty, mas com o passar dos episódios, Summer não só participa de algumas aventuras como também faz alguns serviços para seu avô quando o mesmo está fora com Morty em alguma viagem espacial.",
+      "primeiraap": "A Poção do Rick 9",
+      "aparicoes": [
+        "Rick and Morty"
+      ],
+      "relacoes": [
+        "P0016",
+        "P0017"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/rickandmorty/summer-banner-1.jpg",
+        "img/rickandmorty/summer-banner-2.jpg",
+        "img/rickandmorty/summer-banner-3.jpg",
+        "img/rickandmorty/summer-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0019",
+      "obra": [
+        "S004"
+      ],
+      "nome": "Evil Morty",
+      "icone": "img/rickandmorty/evilmorty-icone.jpg",
+      "imagem": "img/rickandmorty/evilmorty-img.jpg",
+      "especie": "humano",
+      "idade": 14,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "viajante interdimensional"
+      ],
+      "descricao": "Morty Malígno é uma versão alternativa malígna de Morty com intelecto superior ao seu próprio Rick. Morty Malígno tinha como principal objetivo descobrir uma maneira de fugir da curva finita central, ou seja, fugir dos universos nos quais Rick era o homem mais inteligente de todos. Morty Malígno também ajuda Rick em sua caçada ao Rick Prime.",
+      "primeiraap": "Contatos Imediatos",
+      "aparicoes": [
+        "Rick and Morty"
+      ],
+      "relacoes": [
+        "P0017",
+        "P0016"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/rickandmorty/evilmorty-banner-1.jpg",
+        "img/rickandmorty/evilmorty-banner-2.jpg",
+        "img/rickandmorty/evilmorty-banner-3.jpg",
+        "img/rickandmorty/evilmorty-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0020",
+      "obra": [
+        "S004"
+      ],
+      "nome": "Rick Prime",
+      "icone": "img/rickandmorty/rickprime-icone.jpg",
+      "imagem": "img/rickandmorty/rickprime-img.jpg",
+      "especie": "humano",
+      "idade": 27,
+      "genero": "masculino",
+      "status": "morto",
+      "ocupacao": [
+        "cientista",
+        "\ninventor"
+      ],
+      "descricao": "Rick Prime é o antagonista principal do Rick C-137 e o Responsável por eliminar a esposa do mesmo, Diane, em todos os universos após C-137 recusar sua oferta de arma de viagem extradimensoional, priorizando a família. Rick Prime teve seu ego ferido, tendo em vista que avalia a ciência como superior a laços de família, escolhendo assim, eliminar Diane.",
+      "primeiraap": "A Rickapunhalada Ricksalvação",
+      "aparicoes": [
+        "Rick and Morty"
+      ],
+      "relacoes": [
+        "P0016"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/rickandmorty/rickprime-banner-1.jpg",
+        "img/rickandmorty/rickprime-banner-2.jpg",
+        "img/rickandmorty/rickprime-banner-3.jpg",
+        "img/rickandmorty/rickprime-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0021",
+      "obra": [
+        "S005"
+      ],
+      "nome": "Monkey D. Luffy",
+      "icone": "img/onepiece/luffy-icone.jpg",
+      "imagem": "img/onepiece/luffy-img.jpg",
+      "especie": "humano",
+      "idade": 19,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "capitão",
+        "\nimperador do mar"
+      ],
+      "descricao": "Monkey D. Luffy é filho do revlucionário Dragon e neto do vice-almirante da marinha Garp. Luffy prometeu a Shanks - um dos imperadores do mar - que devolveria seu chapéu quando juntasse uma tripulação forte, viajasse o mundo todo e se tornasse o Rei dos Piratas, encontrando o tesouro lendário de Gol D. Roger: O One piece.",
+      "primeiraap": "Eu sou Luffy! O homem que vai ser o Rei dos Piratas!",
+      "aparicoes": [
+        "One Piece",
+        "\nOne Piece: a Série"
+      ],
+      "relacoes": [
+        "P0022",
+        "P0023",
+        "P0024",
+        "P0025"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/onepiece/luffy-banner-1.jpg",
+        "img/onepiece/luffy-banner-2.jpg",
+        "img/onepiece/luffy-banner-3.jpg",
+        "img/onepiece/luffy-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0022",
+      "obra": [
+        "S005"
+      ],
+      "nome": "Roronoa Zoro",
+      "icone": "img/onepiece/zoro-icone.jpg",
+      "imagem": "img/onepiece/zoro-img.jpg",
+      "especie": "humano",
+      "idade": 21,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "espadachim",
+        "imediato"
+      ],
+      "descricao": "Roronoa Zoro é o espadachimdo bando de piradas do Chapéu de Palha e o braço direito de seu capitão Luffy. Zoro sonha em derrotar Mihawk: olhos de gavião, se tornando, assim, o maior espadachim do mundo e cumprindo a promessa que fez quando criança a sua falecida amiga Kuiná. Zoro é descendente do lendário espadachim Ryuma, que portava a espada shisui, de Wano.",
+      "primeiraap": "Eu sou Luffy! O homem que vai ser o Rei dos Piratas!",
+      "aparicoes": [
+        "One Piece",
+        "\nOne Piece: a Série"
+      ],
+      "relacoes": [
+        "P0021",
+        "P0023",
+        "P0024",
+        "P0025"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/onepiece/zoro-banner-1.jpg",
+        "img/onepiece/zoro-banner-2.jpg",
+        "img/onepiece/zoro-banner-3.jpg",
+        "img/onepiece/zoro-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0023",
+      "obra": [
+        "S005"
+      ],
+      "nome": "Nami",
+      "icone": "img/onepiece/nami-icone.jpg",
+      "imagem": "img/onepiece/nami-img.jpg",
+      "especie": "humano",
+      "idade": 20,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "navegadora"
+      ],
+      "descricao": "Nami é a navegora do bando do chapéu de palha e sonha em desenhar um mapa Mundi. Nami é uma ex membro dos piratas do Arlong e trabalhava assaltando todo tipo de tesouro de bandos pirata com o objetivo de comprar sua vila de volta do próprio Arlong, que tinha escravizado e tomado o vilarejo para si. Arlong foi derrotado por Luffy e Nami pôde se juntar oficialmente ao bando.",
+      "primeiraap": "Eu sou Luffy! O homem que vai ser o Rei dos Piratas!",
+      "aparicoes": [
+        "One piece",
+        "\nOne Piece: a Série"
+      ],
+      "relacoes": [
+        "P0021",
+        "P0022",
+        "P0024",
+        "P0025"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/onepiece/nami-banner-1.jpg",
+        "img/onepiece/nami-banner-2.jpg",
+        "img/onepiece/nami-banner-3.jpg",
+        "img/onepiece/nami-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0024",
+      "obra": [
+        "S005"
+      ],
+      "nome": "Usopp",
+      "icone": "img/onepiece/usopp-icone.png",
+      "imagem": "img/onepiece/usopp-img.jpg",
+      "especie": "humano",
+      "idade": 19,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "atirador"
+      ],
+      "descricao": "Usopp é o atirador do bando dos chapéu de palha e filho do grande Yasopp, atirador do bando dos piratas Ruivos. Usopp sonha em se tornar um bravo guereiro do mar e viver aventuras incríveis assim como seu pai. Após derrotar capitão Kuro e largar os pirata Usopp na vila Syrup, Usopp se junta a Luffy e começa a trabalhar em diversos tipos de munição para auxiliar seus companheiros em combate.",
+      "primeiraap": "Quem Será O Vencedor? Confronto das Habilidades da Akuma no Mi!",
+      "aparicoes": [
+        "One piece",
+        "\nOne Piece: a Série"
+      ],
+      "relacoes": [
+        "P0021",
+        "P0022",
+        "P0023",
+        "P0025"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/onepiece/usopp-banner-1.jpg",
+        "img/onepiece/usopp-banner-2.jpg",
+        "img/onepiece/usopp-banner-3.jpg",
+        "img/onepiece/usopp-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0025",
+      "obra": [
+        "S005"
+      ],
+      "nome": "Vinsmoke Sanji",
+      "icone": "img/onepiece/sanji-icone.jpg",
+      "imagem": "img/onepiece/sanji-img.jpg",
+      "especie": "humano",
+      "idade": 21,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "cozinheiro",
+        "\npríncipe"
+      ],
+      "descricao": "Sanji é um principe da família Vinsmoke ao lado de seus quatro irmãos. Sanji também, antes de se juntar ao bando do chapéu de palha, trabalhava como cozinheiro no Baratie, o restaurante no mar, a serviço do famoso pirata Zeff. Sanji fugiu de sua família após diversos maus tratos do pai, que o considerava uma falha, quando comparado aos irmãos, por não ter desperto os poderes da família.",
+      "primeiraap": "O Famoso Cozinheiro! Sanji, do Restaurante Flutuante",
+      "aparicoes": [
+        "One piece",
+        "\nOne Piece: a Série"
+      ],
+      "relacoes": [
+        "P0021",
+        "P0022",
+        "P0023",
+        "P0024"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/onepiece/sanji-banner-1.jpg",
+        "img/onepiece/sanji-banner-2.jpg",
+        "img/onepiece/sanji-banner-3.jpg",
+        "img/onepiece/sanji-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0026",
+      "obra": [
+        "S006"
+      ],
+      "nome": "Jim Lake Jr",
+      "icone": "img/trollhunters/jim-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0027",
+      "obra": [
+        "S006"
+      ],
+      "nome": "Bob Domzalski",
+      "icone": "img/trollhunters/bob-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0028",
+      "obra": [
+        "S006"
+      ],
+      "nome": "Clara Nuñez",
+      "icone": "img/trollhunters/clara-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0029",
+      "obra": [
+        "S006"
+      ],
+      "nome": "Blink",
+      "icone": "img/trollhunters/blink-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0030",
+      "obra": [
+        "S006"
+      ],
+      "nome": "Aaarrrgghh",
+      "icone": "img/trollhunters/aaarrrgghh-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0031",
+      "obra": [
+        "S007"
+      ],
+      "nome": "Jonathan Joestar",
+      "icone": "img/jojo/jojo-jonathan-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0032",
+      "obra": [
+        "S007"
+      ],
+      "nome": "Joseph Joestar",
+      "icone": "img/jojo/jojo-joseph-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0033",
+      "obra": [
+        "S007"
+      ],
+      "nome": "Jotaro Kujo",
+      "icone": "img/jojo/jojo-jotaro-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0034",
+      "obra": [
+        "S007"
+      ],
+      "nome": "Ceasar Zepelli",
+      "icone": "img/jojo/jojo-ceasar-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0035",
+      "obra": [
+        "S007"
+      ],
+      "nome": "Dio Brando",
+      "icone": "img/jojo/jojo-dio-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0036",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Capitão Pátria",
+      "icone": "img/the boys/capitaopatria-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0037",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Hughie",
+      "icone": "img/the boys/hughie-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0038",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Trem Bala",
+      "icone": "img/the boys/trem-bala-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0039",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Luz Estrela",
+      "icone": "img/the boys/luz-estrela-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0040",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Black Noir",
+      "icone": "img/the boys/black-noir-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0041",
+      "obra": [
+        "Q001"
+      ],
+      "nome": "José",
+      "icone": "img/reidelata/jose-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0042",
+      "obra": [
+        "Q001"
+      ],
+      "nome": "Arthur",
+      "icone": "img/reidelata/arthur-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0043",
+      "obra": [
+        "Q001"
+      ],
+      "nome": "César",
+      "icone": "img/reidelata/cesar-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0044",
+      "obra": [
+        "Q001"
+      ],
+      "nome": "Esther",
+      "icone": "img/reidelata/esther-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0045",
+      "obra": [
+        "Q001"
+      ],
+      "nome": "Pirata",
+      "icone": "img/reidelata/pirata-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0046",
+      "obra": [
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Julie Yamamoto",
+      "icone": "img/ben10/julie-icone.jpg",
+      "imagem": "img/ben10/julie-img.jpg",
+      "especie": "humano",
+      "idade": 16,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": [
+        "tenista"
+      ],
+      "descricao": "",
+      "primeiraap": "O Retorno de Ben 10 Pt.1",
+      "aparicoes": [
+        "Ben 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0001"
+      ],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/ben10/julie-banner-1.jpg",
+        "img/ben10/julie-banner-2.jpg",
+        "img/ben10/julie-banner-3.jpg",
+        "img/ben10/julie-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0047",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Allen O Alien",
+      "icone": "img/invencivel/allen-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0048",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Demolidores",
+      "icone": "img/invencivel/demolidores-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0049",
+      "obra": [
+        "S003"
+      ],
+      "nome": "Oliver Grayson",
+      "icone": "img/invencivel/oliver-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0050",
+      "obra": [
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Professor Paradoxo",
+      "icone": "img/ben10/paradoxo-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0051",
+      "obra": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "nome": "Bala de Canhão",
+      "icone": "img/ben10/baladecanhao-icone.jpg",
+      "imagem": "img/ben10/baladecanhao-img.jpg",
+      "especie": "pelarota arburiano",
+      "idade": 16,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": [
+        "herói"
+      ],
+      "descricao": "Bala de Canhão (Bola de canhão ou Raio de canhão - como chamado por Ben em alguns episódios da série classica) é a amostra de DNA de um Pelarota Arburiano, do planeta Arburia, do Omnitix de Ben. Em sua primeira transformação, Ben considerou o alienígena inútil por sua limitação de habilidades, mas com o tempo, Bala de Canhão foi conquistando Ben por sua praticidade e resistência.",
+      "primeiraap": "O Grande Carrapato",
+      "aparicoes": [
+        "Ben 10",
+        "\nBen 10: Força alienígena",
+        "\nBen 10: Supremacia alienígena",
+        "\nBen 10: Omniverse"
+      ],
+      "relacoes": [
+        "P0001"
+      ],
+      "habilidades": [
+        "Bala de canhão pode enrolar seu corpo (como fazem os tatus), entrando em sua forma de esfera. Quando nessa transformação, o alien pode rolar em alta velocidade, ricochetear em superfícies e aumentar sua força de rotação para atingir seus inimigos.",
+        "Na forma de esfera, Bala de canhão ainda possui espaço interno no qual é possível transportar objetos ou até mesmo pessoas.",
+        "A pele do Bala de Canhão é extremamente resistente, o possibilitando receber golpes pesados, sobreviver a ácidos, magma ou lava ou até mesmo resistir a reentrada na atmosfera de uma queda do espaço.",
+        "Na forma suprema, Bala de canhão ganha espinhos por toda a sua carapaça, que fica ainda mais resistente, permitindo se proteger de radiação ou armazenar gases essenciais. Além disso, a forma suprema ainda aprimora sua velocidade e impulsão.",
+        "Ainda na forma suprema, Bala de canhão pode resistir e repelir diversos projéteis, como raios laser."
+      ],
+      "curiosidades": [
+        "Bala de Canhão ganhou espaço na abertura da série clássica quando fantasmático se vira contra Ben e sai do omnitrix",
+        "Bala de Canhão, assim como outros aliens ao longo da franquia, teve seu nome alterado. Nesse caso, duas vezes: de Bola de canhão para Raio de canhão e depois para Bala de Canhão",
+        "Bala de Canhão foi o primeiro alienígena desbloqueado por Ben Tennyson além dos 10 originais do protótipo do Omnitrix"
+      ],
+      "galeria": [
+        "img/ben10/baladecanhao-banner-1.jpg",
+        "img/ben10/baladecanhao-banner-2.jpg",
+        "img/ben10/baladecanhao-banner-3.jpg",
+        "img/ben10/baladecanhao-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0052",
+      "obra": [
+        "S008"
+      ],
+      "nome": "Willian Bruto",
+      "icone": "img/the boys/bruto-icone.jpg",
+      "imagem": "",
+      "especie": "humano",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0053",
+      "obra": [
+        "J001"
+      ],
+      "nome": "Phoenix",
+      "icone": "img/valorant/phoenix-icone.jpg",
+      "imagem": "img/valorant/phoenix-img.jpg",
+      "especie": "radiante",
+      "idade": "-",
+      "genero": "masculino",
+      "status": "-",
+      "ocupacao": [
+        "Duelista"
+      ],
+      "descricao": "Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.",
+      "primeiraap": "-",
+      "aparicoes": [
+        "-"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/phoenix-banner-1.jpg",
+        "img/valorant/phoenix-banner-2.jpg",
+        "img/valorant/phoenix-banner-3.jpg",
+        "img/valorant/phoenix-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0054",
+      "obra": [
+        "J001"
+      ],
+      "nome": "Brimstone",
+      "icone": "img/valorant/brimstone-icone.jpg",
+      "imagem": "img/valorant/brimstone-img.jpg",
+      "especie": "humano",
+      "idade": "-",
+      "genero": "masculino",
+      "status": "-",
+      "ocupacao": [
+        "Controlador"
+      ],
+      "descricao": "Vindo diretamente dos EUA, o arsenal orbital do Brimstone garante que o esquadrão dele sempre esteja em vantagem. Sua capacidade de oferecer utilitários com precisão e segurança faz dele um comandante inigualável na linha de frente.",
+      "primeiraap": "-",
+      "aparicoes": [
+        "-"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/brimstone-banner-1.jpg",
+        "img/valorant/brimstone-banner-2.jpg",
+        "img/valorant/brimstone-banner-3.jpg",
+        "img/valorant/brimstone-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0055",
+      "obra": [
+        "J001"
+      ],
+      "nome": "Sage",
+      "icone": "img/valorant/sage-icone.jpg",
+      "imagem": "img/valorant/sage-img.jpg",
+      "especie": "radiante",
+      "idade": "-",
+      "genero": "feminino",
+      "status": "-",
+      "ocupacao": [
+        "Sentinela"
+      ],
+      "descricao": "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.",
+      "primeiraap": "-",
+      "aparicoes": [
+        "-"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/sage-banner-1.jpg",
+        "img/valorant/sage-banner-2.jpg",
+        "img/valorant/sage-banner-3.jpg",
+        "img/valorant/sage-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0056",
+      "obra": [
+        "J001"
+      ],
+      "nome": "Sova",
+      "icone": "img/valorant/sova-icone.jpg",
+      "imagem": "img/valorant/sova-img.jpg",
+      "especie": "humano",
+      "idade": "-",
+      "genero": "masculino",
+      "status": "-",
+      "ocupacao": [
+        "Iniciador"
+      ],
+      "descricao": "Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.",
+      "primeiraap": "-",
+      "aparicoes": [
+        "-"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/sova-banner-1.jpg",
+        "img/valorant/sova-banner-2.jpg",
+        "img/valorant/sova-banner-3.jpg",
+        "img/valorant/sova-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0057",
+      "obra": [
+        "J001"
+      ],
+      "nome": "Jett",
+      "icone": "img/valorant/jett-icone.jpg",
+      "imagem": "img/valorant/jett-img.jpg",
+      "especie": "radiante",
+      "idade": "-",
+      "genero": "feminino",
+      "status": "-",
+      "ocupacao": [
+        "Duelista"
+      ],
+      "descricao": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+      "primeiraap": "-",
+      "aparicoes": [
+        "-"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/jett-banner-1.jpg",
+        "img/valorant/jett-banner-2.jpg",
+        "img/valorant/jett-banner-3.jpg",
+        "img/valorant/jett-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0058",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Concerta-Corações",
+      "icone": "img/miraculous/concerta-coracoes-icone.jpg",
+      "imagem": "img/miraculous/-img.jpg",
+      "especie": "Humano",
+      "idade": "14",
+      "genero": "feminino",
+      "status": "Desakumatizada",
+      "ocupacao": [
+        "supervilã",
+        "\nakumatizada"
+      ],
+      "descricao": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+      "primeiraap": "Concerta-Corações",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/jett-banner-1.jpg",
+        "img/valorant/jett-banner-2.jpg",
+        "img/valorant/jett-banner-3.jpg",
+        "img/valorant/jett-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0059",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Efêmero",
+      "icone": "img/miraculous/efemero-icone.jpg",
+      "imagem": "img/miraculous/efemero-img.jpg",
+      "especie": "humano",
+      "idade": "15",
+      "genero": "masculino",
+      "status": "Desakumatizado",
+      "ocupacao": [
+        "supervilão",
+        "\nakumatizado"
+      ],
+      "descricao": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+      "primeiraap": "Efêmero",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/jett-banner-1.jpg",
+        "img/valorant/jett-banner-2.jpg",
+        "img/valorant/jett-banner-3.jpg",
+        "img/valorant/jett-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0060",
+      "obra": [
+        "S002"
+      ],
+      "nome": "Cat Blanc",
+      "icone": "img/miraculous/cat-blanc-icone.jpg",
+      "imagem": "img/miraculous/cat-blanc-img.jpg",
+      "especie": "humano",
+      "idade": "15",
+      "genero": "masculino",
+      "status": "Desakumatizado",
+      "ocupacao": [
+        "supervilão",
+        "\nakumatizado"
+      ],
+      "descricao": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+      "primeiraap": "Efêmero",
+      "aparicoes": [
+        "Miraculous: As aventuras de Ladybug e Cat Noir"
+      ],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": [
+        "img/valorant/jett-banner-1.jpg",
+        "img/valorant/jett-banner-2.jpg",
+        "img/valorant/jett-banner-3.jpg",
+        "img/valorant/jett-banner-4.jpg"
+      ]
+    },
+    {
+      "id": "P0061",
+      "obra": [
+        "S009"
+      ],
+      "nome": "Steven Universo",
+      "icone": "img/stevenuniverso/steven-icone.jpg",
+      "imagem": "",
+      "especie": "humano/gem",
+      "idade": 1,
+      "genero": "masculino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0062",
+      "obra": [
+        "S009"
+      ],
+      "nome": "Garnet",
+      "icone": "img/stevenuniverso/garnet-icone.jpg",
+      "imagem": "",
+      "especie": "gem",
+      "idade": 1,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0063",
+      "obra": [
+        "S009"
+      ],
+      "nome": "Pérola",
+      "icone": "img/stevenuniverso/perola-icone.jpg",
+      "imagem": "",
+      "especie": "gem",
+      "idade": 1,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0064",
+      "obra": [
+        "S009"
+      ],
+      "nome": "Ametista",
+      "icone": "img/stevenuniverso/ametista-icone.jpg",
+      "imagem": "",
+      "especie": "gem",
+      "idade": 1,
+      "genero": "feminino",
+      "status": "vivo",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    },
+    {
+      "id": "P0065",
+      "obra": [
+        "S009"
+      ],
+      "nome": "Rose Quartz",
+      "icone": "img/stevenuniverso/rose-icone.jpg",
+      "imagem": "",
+      "especie": "gem",
+      "idade": 1,
+      "genero": "feminino",
+      "status": "morta",
+      "ocupacao": "",
+      "descricao": "",
+      "primeiraap": "",
+      "aparicoes": [],
+      "relacoes": [],
+      "habilidades": [],
+      "curiosidades": [],
+      "galeria": []
+    }
+  ],
+  "atores": [
+    {
+      "id": "A0001",
+      "nome": "Tom Holland",
+      "icone": "img/atores/tom-holland.jpg",
+      "nascimento": "01-06-1996",
+      "nacionalidade": "Inglaterra",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "Peter Parker"
+        }
+      ]
+    },
+    {
+      "id": "A0002",
+      "nome": "Zendaya",
+      "icone": "img/atores/zendaya.jpg",
+      "nascimento": "01-09-1996",
+      "nacionalidade": "Estados Unidos",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "MJ"
+        }
+      ]
+    },
+    {
+      "id": "A0003",
+      "nome": "Jacob Batalon",
+      "icone": "img/atores/jacob-batalon.jpg",
+      "nascimento": "09-10-1996",
+      "nacionalidade": "Estados Unidos",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "Ned"
+        }
+      ]
+    },
+    {
+      "id": "A0004",
+      "nome": "Jon Bernthal",
+      "icone": "img/atores/jon-bernthal.jpg",
+      "nascimento": "20-09-1976",
+      "nacionalidade": "Estados Unidos",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "Frank Castle (justiceiro)"
+        }
+      ]
+    },
+    {
+      "id": "A0005",
+      "nome": "Mark Ruffalo",
+      "icone": "img/atores/mark-ruffalo.jpg",
+      "nascimento": "22-11-1967",
+      "nacionalidade": "Estados Unidos",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "Bruce Banner (Hulk)"
+        }
+      ]
+    },
+    {
+      "id": "A0006",
+      "nome": "Sadie Sink",
+      "icone": "img/atores/sadie-sink.jpg",
+      "nascimento": "16-04-2002",
+      "nacionalidade": "Estados Unidos",
+      "titulos": [
+        {
+          "idObra": "F004",
+          "perso": "Jean Grey"
+        }
+      ]
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "SS0001",
+      "titulo": "Omnitrix",
+      "obras": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "icone": "img/exploremais/omnitrix-ss.jpg",
+      "galeria": [],
+      "texto": []
+    },
+    {
+      "id": "SS0001",
+      "titulo": "Encanadores",
+      "obras": [
+        "S001",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "icone": "img/exploremais/encanadores-ss.jpg",
+      "galeria": [],
+      "texto": []
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

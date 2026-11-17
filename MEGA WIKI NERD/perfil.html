@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVREPARASERNERD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="componente-banner-topo">
+            <h1>MEGA WIKI NERD</h1>
+        </div>
+        <div class="componente-faixa-paleta">
+            <div class="cor-1"></div>
+            <div class="cor-2"></div>
+            <div class="cor-3"></div>
+        </div>
+        <nav>
+            <div class="componente-mapa-wiki">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="perfil.html">Meu Perfil</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                    <li><a href="personagens.html">Personagens </a></li>
+                    <li><a href="login.html" id="btn-usuario">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="tela-perfil">
+        <div class="componente-seu-perfil">
+            <div class="componente-faixa-rosa">
+                <h2>VEJA SEU PERFIL AQUI!</h2>
+            </div>
+
+            <div class="dados-usuario">
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="nome-usuario"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="login-usuario"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="qnt-favoritos"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="qnt-assistidos"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="minutos-assistidos"></p>
+                </div>
+            </div>
+
+            <div class="dados-usuario">
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="qnt-avaliados"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="media-avaliacoes"></p>
+                </div>
+                <div>
+                    <div class="componente-stick-rosa"></div>
+                    <p id="maior-nota"></p>
+                </div>
+            </div>
+
+            <div class="div-cards-perfil">
+                <h2 class="titulo-secao-perfil">MEUS FAVORITOS:</h2>
+                <div id="cards-favoritos" class="secoes-perfil row"></div>
+            </div>
+
+            <div class="div-cards-perfil">
+                <h2 class="titulo-secao-perfil">MINHA LISTA:</h2>
+                <div id="cards-minha-lista" class="secoes-perfil row"></div>
+            </div>
+
+            <div class="div-cards-perfil">
+                <h2 class="titulo-secao-perfil">RECOMENDAÇÕES PARA VOCÊ:</h2>
+                <div id="cards-recomendacao" class="secoes-perfil row"></div>
+            </div>
+
+            <div class="div-cards-perfil">
+                <h2 class="titulo-secao-perfil">TEMA:</h2>
+                <div class="botoes-tema">
+                    <div class="seletor-tema">
+                        <div class="btn-tema">
+                            <div class="magic-1"></div>
+                            <div class="magic-2"></div>
+                            <div class="magic-3"></div>
+                            <div class="magic-4"></div>
+                            <div class="magic-5"></div>
+                        </div>
+                        <button class="tema" data-tema="magic">MAGIC</button>
+                    </div>
+                    <div class="seletor-tema">
+                        <div class="btn-tema">
+                            <div class="marine-1"></div>
+                            <div class="marine-2"></div>
+                            <div class="marine-3"></div>
+                            <div class="marine-4"></div>
+                            <div class="marine-5"></div>
+                        </div>
+                        <button class="tema" data-tema="marine">MARINE</button>
+                    </div>
+                    <div class="seletor-tema">
+                        <div class="btn-tema">
+                            <div class="leaf-1"></div>
+                            <div class="leaf-2"></div>
+                            <div class="leaf-3"></div>
+                            <div class="leaf-4"></div>
+                            <div class="leaf-5"></div>
+                        </div>
+                        <button class="tema" data-tema="leaf">LEAF</button>
+                    </div>
+                    <div class="seletor-tema">
+                        <div class="btn-tema">
+                            <div class="magma-1"></div>
+                            <div class="magma-2"></div>
+                            <div class="magma-3"></div>
+                            <div class="magma-4"></div>
+                            <div class="magma-5"></div>
+                        </div>
+                        <button class="tema" data-tema="magma">MAGMA</button>
+                    </div>
+                    <div class="seletor-tema">
+                        <div class="btn-tema">
+                            <div class="toxic-1"></div>
+                            <div class="toxic-2"></div>
+                            <div class="toxic-3"></div>
+                            <div class="toxic-4"></div>
+                            <div class="toxic-5"></div>
+                        </div>
+                        <button class="tema" data-tema="toxic">TOXIC</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="componente-rodape-geral">SIGA @LIVREPARASERNERD NO INSTAGRAM!</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/perfil.js"></script>
+    <script src="js/temas.js"></script>
+</body>
+</html>

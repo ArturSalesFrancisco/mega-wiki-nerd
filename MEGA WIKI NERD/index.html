@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVREPARASERNERD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="componente-banner-topo">
+            <h1>MEGA WIKI NERD</h1>
+        </div>
+        <div class="componente-faixa-paleta">
+            <div class="cor-1"></div>
+            <div class="cor-2"></div>
+            <div class="cor-3"></div>
+        </div>
+        <nav>
+            <div class="componente-mapa-wiki">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="perfil.html">Meu Perfil</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                    <li><a href="personagens.html">Personagens </a></li>
+                    <li><a href="login.html" id="btn-usuario">Login</a></li>
+                </ul>
+            </div>
+            <div class="seletores-pesquisa">
+                <input type="text" id="search" class="barra-pesquisa" placeholder="BUSCAR...">
+                <select id="ordenar">
+                    <option value="" disabled selected>ORDENAR POR</option>
+                    <option value="maiorNota">MAIOR NOTA</option>
+                    <option value="menorNota">MENOR NOTA</option>
+                    <option value="az">A → Z</option>
+                    <option value="za">Z → A</option>
+                    <option value="maisRecente">MAIS RECENTE</option>
+                    <option value="maisAntigo">MAIS ANTIGO</option>
+                </select>
+                <button id="ativar-frq">VER FRANQUIAS</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="componente-faixa-filtros">
+            <div class="componente-div-filtros">
+                <select id="seletor-streaming" class="componente-seletor-filtro">
+                    <option value="" disabled selected>STREAMING</option>
+                    <option value="Todos">TODOS</option>
+                    <option value="Netflix">NETFLIX</option>
+                    <option value="HBO max">HBO MAX</option>
+                    <option value="Prime Video">PRIME VIDEO</option>
+                    <option value="Disney+">DISNEY+</option>
+                    <option value="Globoplay">GLOBOPLAY</option>
+                </select>
+
+                <select id="seletor-genero" class="componente-seletor-filtro">
+                    <option value="" disabled selected>GÊNERO</option>
+                    <option value="Todos">TODOS</option>
+                    <option value="Ficção Científica">FICÇÃO CIENTÍFICA</option>
+                    <option value="Ação">AÇÃO</option>
+                    <option value="Aventura">AVENTURA</option>
+                    <option value="Comédia">COMÉDIA</option>
+                    <option value="Drama">DRAMA</option>
+                    <option value="Fantasia">FANTASIA</option>
+                    <option value="Românce">ROMÂNCE</option>
+                    <option value="Terror">TERROR</option>
+                    <option value="Sobrenatural">SOBRENATURAL</option>
+                </select>
+
+                <select id="seletor-nota" class="componente-seletor-filtro">
+                    <option value="" disabled selected>NOTA</option>
+                    <option value="Todas">TODOS</option>
+                    <option value="5">5 ★ ou mais</option>
+                    <option value="6">6 ★ ou mais</option>
+                    <option value="7">7 ★ ou mais</option>
+                    <option value="8">8 ★ ou mais</option>
+                    <option value="9">9 ★ ou mais</option>
+                </select>
+
+                <select id="seletor-obra" class="componente-seletor-filtro">
+                    <option value="" disabled selected>CATEGORIA    </option>
+                    <option value="Todas">TODAS</option>
+                    <option value="Serie">SÉRIES</option>
+                    <option value="Filme">FILMES</option>
+                    <option value="Quadrinho">QUADRINHOS</option>
+                    <option value="Jogo">JOGOS</option>
+                </select>
+
+                <select id="seletor-tipo" class="componente-seletor-filtro">
+                    <option value="" disabled selected>TIPO</option>
+                    <option value="Todos">TODOS</option>
+                    <option value="Animação">ANIMAÇÃO</option>
+                    <option value="Live-action">LIVE-ACTION</option>
+                </select>   
+                
+            </div>
+        </div>
+        <div class="main-cards">
+            <div id="div-frq" class="div-cards-perfil card-franquias">
+                <h2 class="titulo-secao-perfil">PRINCIPAIS FRANQUIAS</h2>
+                <div id="card-franquias" class="row"></div>
+            </div>
+        </div>
+        <div id="nerd-cards" class="row"></div>
+
+    </main>
+    <footer class="componente-rodape-geral">SIGA @LIVREPARASERNERD NO INSTAGRAM!</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/temas.js"></script>
+</body>
+</html>

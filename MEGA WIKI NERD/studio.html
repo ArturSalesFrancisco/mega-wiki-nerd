@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVREPARASERNERD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="componente-banner-topo">
+            <h1>MEGA WIKI NERD</h1>
+        </div>
+        <div class="componente-faixa-paleta">
+            <div class="cor-1"></div>
+            <div class="cor-2"></div>
+            <div class="cor-3"></div>
+        </div>
+        <nav>
+            <div class="componente-mapa-wiki">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="perfil.html">Meu Perfil</a></li>
+                    <li><a href="avaliacoes.html">Avaliações</a></li>
+                    <li><a href="personagens.html">Personagens </a></li>
+                    <li><a href="login.html" id="btn-usuario">Login</a></li>
+                </ul>
+            </div>
+            <div class="seletores-pesquisa">
+                <input type="text" id="search" class="barra-pesquisa" placeholder="BUSCAR...">
+                <select id="qual-obra">
+                    <option value="Todos">TODOS OS PERSONAGENS</option>
+                    <option value="S">SÉRIES</option>
+                    <option value="F">FILMES</option>
+                    <option value="Q">QUADRINHOS</option>
+                    <option value="J">JOGOS</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="modo-studio">
+        <div id="caixa-montagem">
+            <div id="tier">
+                <div class="tier-s bloco-tier">S</div>
+                <div class="tier-a bloco-tier">A</div>
+                <div class="tier-b bloco-tier">B</div>
+                <div class="tier-c bloco-tier">C</div>
+                <div class="tier-d bloco-tier">D</div>
+            </div>
+        </div>
+
+        <div class="botoes-studio">
+            <button id="ativar-grade" class="btn-studio">ATIVAR GRADE</button>
+            <button id="ativar-tier" class="btn-studio">ATIVAR TIER</button>
+            <button id="limpar-caixa" class="btn-studio">LIMPAR TUDO</button>
+        </div>
+
+        <div class="banco-personagens">
+            <h2 class="titulo-all-perso">TODOS OS NOSSOS PERSONAGENS:</h2>
+            <div id="banco-personagens" class="row"></div>
+        </div>
+    </main>
+
+    <footer class="componente-rodape-geral">SIGA @LIVREPARASERNERD NO INSTAGRAM!</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/studio.js"></script>
+    <script src="js/temas.js"></script>
+</body>
+</html>
